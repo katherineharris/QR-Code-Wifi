@@ -9,14 +9,14 @@
     <TabControl HorizontalAlignment="Left" Height="364" Margin="23,18,0,0" VerticalAlignment="Top" Width="404">
         <TabItem x:Name="TabTulsa" Header="Tulsa">
             <Grid Background="#FFE5E5E5">
-                <Button x:Name="btnTulsaGen" Content="Generate" HorizontalAlignment="Left" VerticalAlignment="Top" Width="60" Margin="328,268,0,0" Height="26"/>
+                <Button x:Name="btnTulsaGen" Content="Generate" HorizontalAlignment="Left" VerticalAlignment="Top" Width="60" Margin="328,268,0,0" Height="26" Click="btnTulsaGen_Click"/>
                 <Button x:Name="btnTulsaSave" Content="Save" HorizontalAlignment="Left" VerticalAlignment="Top" Width="60" Margin="328,300,0,0" Height="26"/>
                 <Image x:Name="imgTulsa" HorizontalAlignment="Left" Height="239" Margin="24,24,0,0" VerticalAlignment="Top" Width="283"/>
             </Grid>
         </TabItem>
         <TabItem x:Name="TabNorman" Header="Norman">
             <Grid x:Name="tabQR" Background="#FFE5E5E5">
-                <Button x:Name="btnNormanGen" Content="Generate" HorizontalAlignment="Left" VerticalAlignment="Top" Width="60" Margin="328,269,0,0" Height="26"/>
+                <Button x:Name="btnNormanGen" Content="Generate" HorizontalAlignment="Left" VerticalAlignment="Top" Width="60" Margin="328,269,0,0" Height="26" Click="btnNormanGen_Click"/>
                 <Button x:Name="btnNormanSave" Content="Save" HorizontalAlignment="Left" VerticalAlignment="Top" Width="60" Margin="328,300,0,0" Height="26"/>
                 <Image x:Name="imgNorman" HorizontalAlignment="Left" Height="239" Margin="24,24,0,0" VerticalAlignment="Top" Width="283"/>
             </Grid>
